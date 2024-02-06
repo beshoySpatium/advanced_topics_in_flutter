@@ -33,17 +33,13 @@ class OnboardingScreen extends StatelessWidget {
               child: ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
+                      minimumSize: Size(double.infinity, 50.h),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(8)),
                       backgroundColor: AppColors.mainblue),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        'Get Started',
-                        style: TextStyles.font16WhiteNormal,
-                      ),
-                    ],
+                  child: Text(
+                    'Get Started',
+                    style: TextStyles.font16WhiteNormal,
                   )),
             )
           ],
