@@ -31,7 +31,9 @@ class OnboardingScreen extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 50.w),
               child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    
+                  },
                   style: ElevatedButton.styleFrom(
                       minimumSize: Size(double.infinity, 50.h),
                       shape: RoundedRectangleBorder(
