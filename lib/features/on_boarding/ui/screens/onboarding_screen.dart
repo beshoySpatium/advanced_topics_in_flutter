@@ -41,6 +41,7 @@ class OnboardingScreen extends StatelessWidget {
                       backgroundColor: AppColors.mainblue),
                   child: Text(
                     'Get Started',
+                    
                     style: TextStyles.font16WhiteNormal,
                   )),
             )
