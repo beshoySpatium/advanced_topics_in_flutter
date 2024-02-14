@@ -1,6 +1,11 @@
-import 'package:advanced_topics_in_flutter/doc_app.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_complete_project/doc_app.dart';
+
+import 'core/routing/app_router.dart';
 
 void main() {
-  runApp(const DocApp());
+  runApp(DocApp(
+    appRouter: AppRouter(),
+  ));
 }
+ 

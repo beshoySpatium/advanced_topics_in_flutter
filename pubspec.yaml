@@ -1,5 +1,5 @@
-name: advanced_topics_in_flutter
-description: "A new Flutter project."
+name: flutter_complete_project
+description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.2.6 <4.0.0'
+  sdk: '>=3.1.0 <4.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -29,29 +29,24 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   cupertino_icons: ^1.0.2
+  dio: ^5.3.3
+  easy_localization: ^3.0.3
   flutter:
     sdk: flutter
-  #state_management
   flutter_bloc: ^8.1.3
-  #code_generator
-  freezed: ^2.4.7
-  freezed_annotation: ^2.4.1
-  get_it: ^7.6.7
-  # for Api
-  retrofit: ^4.1.0
-  retrofit_generator: ^8.1.0
-  dio: ^5.4.0
-  pretty_dio_logger: ^1.3.1
-  # caching 
-  # shared_preferences: ^2.2.2
-  #localization
-  easy_localization: ^3.0.3
-  #splash
-  flutter_native_splash: ^2.3.10
-  intl: ^0.18.1
-  #materials
-  flutter_svg: ^2.0.9
+  flutter_native_splash: ^2.3.5
   flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.9
+  freezed: ^2.4.5
+  freezed_annotation: ^2.4.1
+  get_it: ^7.6.4
+  intl: ^0.18.1
+  json_annotation: ^4.8.1
+  json_serializable: ^6.7.1
+  pretty_dio_logger: ^1.3.1
+  retrofit: ^4.0.3
+  retrofit_generator: ^8.0.4
+
 dev_dependencies:
   flutter_lints: ^2.0.0
   flutter_test:
@@ -68,8 +63,8 @@ flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/
-    - assets/svgs/
+    - assets/images
+    - assets/svgs
     
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
